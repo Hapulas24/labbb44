@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
+
+/* Login Card */
+.login-card {
+    width: 100%;
+    max-width: 430px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Card Header */
+.login-card .card-header {
+    background: #0d6efd;
+    color: white;
+    padding: 25px;
+    border: none;
+}
+
+.login-card .card-header h2 {
+    font-weight: bold;
+}
+
+/* Form */
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+/* Login Button */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .login-card {
+        margin: 15px;
+    }
+}
